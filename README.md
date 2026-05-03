@@ -16,6 +16,17 @@ Projeto profissional de automação de testes com **Selenium WebDriver + Java + 
 - Maven 3.9+
 - Google Chrome instalado
 
+## Instalação do projeto (pom.xml)
+1. Clone o repositório:
+```bash
+git clone https://github.com/Rafael-Brum/selenium-webdriver-pageObjects.git
+cd selenium-webdriver-pageObjects
+```
+2. Instale as dependências do `pom.xml`:
+```bash
+mvn clean install -DskipTests
+```
+
 ## Configuração de credenciais
 1. Copie `.env.example` para `.env`.
 2. Edite os valores conforme necessário:
