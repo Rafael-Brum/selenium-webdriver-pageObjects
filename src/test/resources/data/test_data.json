@@ -1,0 +1,26 @@
+﻿{
+  "users": {
+    "validUser": "standard_user",
+    "lockedUser": "locked_out_user",
+    "invalidUser": "invalid_user"
+  },
+  "passwords": {
+    "validPassword": "secret_sauce",
+    "invalidPassword": "wrong_password"
+  },
+  "products": {
+    "firstProduct": "sauce-labs-backpack",
+    "secondProduct": "sauce-labs-bike-light"
+  },
+  "checkout": {
+    "firstName": "Rafael",
+    "lastName": "Brum",
+    "postalCode": "90000-000"
+  },
+  "expectedMessages": {
+    "invalidCredentials": "Epic sadface: Username and password do not match any user in this service",
+    "lockedUser": "Epic sadface: Sorry, this user has been locked out.",
+    "checkoutSuccess": "Thank you for your order!",
+    "missingCheckoutInfo": "Error: First Name is required"
+  }
+}
