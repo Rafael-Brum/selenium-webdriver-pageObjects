@@ -3,7 +3,8 @@
 on:
   push:
     branches:
-      - development`n      - RafaelBrum
+      - development
+      - RafaelBrum
 
 jobs:
   test:
