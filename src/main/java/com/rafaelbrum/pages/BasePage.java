@@ -17,7 +17,7 @@ public abstract class BasePage {
     }
 
     protected void click(By locator) {
-        WebElement element = wait.clickable(locator);
+        WebElement element = wait.visible(locator);
         try {
             element.click();
         } catch (WebDriverException ex) {
