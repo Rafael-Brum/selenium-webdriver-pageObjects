@@ -15,7 +15,7 @@
   "checkout": {
     "firstName": "Rafael",
     "lastName": "Brum",
-    "postalCode": "90000-000"
+    "postalCode": "90000000"
   },
   "expectedMessages": {
     "invalidCredentials": "Epic sadface: Username and password do not match any user in this service",
