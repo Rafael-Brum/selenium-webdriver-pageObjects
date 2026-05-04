@@ -1,4 +1,4 @@
-﻿package com.rafaelbrum.pages;
+package com.rafaelbrum.pages;
 
 import com.rafaelbrum.utils.WaitUtils;
 import org.openqa.selenium.By;

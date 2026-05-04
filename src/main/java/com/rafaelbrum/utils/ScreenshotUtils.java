@@ -1,4 +1,4 @@
-﻿package com.rafaelbrum.utils;
+package com.rafaelbrum.utils;
 
 import io.qameta.allure.Allure;
 import org.openqa.selenium.OutputType;

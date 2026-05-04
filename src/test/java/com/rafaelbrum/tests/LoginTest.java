@@ -1,4 +1,4 @@
-﻿package com.rafaelbrum.tests;
+package com.rafaelbrum.tests;
 
 import com.rafaelbrum.pages.InventoryPage;
 import com.rafaelbrum.utils.TestDataLoader;

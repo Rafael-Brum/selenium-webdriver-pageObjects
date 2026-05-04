@@ -1,4 +1,4 @@
-﻿package com.rafaelbrum.config;
+package com.rafaelbrum.config;
 
 import io.github.cdimascio.dotenv.Dotenv;
 

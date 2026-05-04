@@ -1,4 +1,4 @@
-﻿package com.rafaelbrum.utils;
+package com.rafaelbrum.utils;
 
 import com.rafaelbrum.config.EnvConfig;
 import org.openqa.selenium.By;

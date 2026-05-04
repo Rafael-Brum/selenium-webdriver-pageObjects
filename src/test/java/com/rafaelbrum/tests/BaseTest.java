@@ -1,4 +1,4 @@
-﻿package com.rafaelbrum.tests;
+package com.rafaelbrum.tests;
 
 import com.rafaelbrum.config.EnvConfig;
 import com.rafaelbrum.pages.LoginPage;
