@@ -2,8 +2,10 @@ package com.rafaelbrum.pages;
 
 import com.rafaelbrum.utils.WaitUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.WebDriverException;
 
 public abstract class BasePage {
     protected final WebDriver driver;
@@ -15,7 +17,12 @@ public abstract class BasePage {
     }
 
     protected void click(By locator) {
-        wait.clickable(locator).click();
+        WebElement element = wait.clickable(locator);
+        try {
+            element.click();
+        } catch (WebDriverException ex) {
+            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+        }
     }
 
     protected void type(By locator, String value) {
