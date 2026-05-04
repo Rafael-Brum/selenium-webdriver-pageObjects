@@ -16,6 +16,45 @@ Projeto profissional de automação de testes com **Selenium WebDriver + Java + 
 - Maven 3.9+
 - Google Chrome instalado
 
+## Instalar Java e Maven
+### Windows
+1. Instale o Java 17 (Temurin):
+```bash
+winget install EclipseAdoptium.Temurin.17.JDK
+```
+2. Instale o Maven:
+```bash
+winget install Apache.Maven
+```
+3. Feche e abra o terminal, depois valide:
+```bash
+java -version
+mvn -version
+```
+
+### macOS
+1. Instale via Homebrew:
+```bash
+brew install openjdk@17 maven
+```
+2. Valide:
+```bash
+java -version
+mvn -version
+```
+
+### Linux (Ubuntu/Debian)
+1. Instale com apt:
+```bash
+sudo apt update
+sudo apt install -y openjdk-17-jdk maven
+```
+2. Valide:
+```bash
+java -version
+mvn -version
+```
+
 ## Instalação do projeto (pom.xml)
 1. Clone o repositório:
 ```bash
